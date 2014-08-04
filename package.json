@@ -1,0 +1,12 @@
+{
+  "jspm": {
+    "directories": {
+      "jspmPackages": "vendor"
+    },
+    "registry": "jspm",
+    "dependencies": {
+      "ember": "^1.6.1",
+      "ember-data": "^1.0.0-beta.8"
+    }
+  }
+}

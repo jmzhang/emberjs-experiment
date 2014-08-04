@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Ember.js • TodoMVC</title>
+        <script src="vendor/system@0.6.js"></script>
+        <script src="config.js"></script>
+        <script>
+            System.import('app/app').then(function(m) {
+                window.Todos = m.default;
+                Todos.ApplicationAdapter = DS.FixtureAdapter.extend();
+            }, function(e) {
+                console.error(e);
+            });
+        </script>
+    </head>
+</html>
