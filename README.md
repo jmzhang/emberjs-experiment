@@ -24,7 +24,7 @@ jspm install
 
    > _Note that when running locally, ensure you are running from a local server or a browser with local XHR requests enabled. If not you will get an error message._
 
-   > _For Chrome on Mac, you can run launch it in terminal with: `/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --allow-file-access-from-files &> /dev/null &` But make sure your chrome is not currently running!_
+   > _For Chrome on Mac, you can launch it in terminal with: `/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --allow-file-access-from-files &> /dev/null &` But make sure your chrome is not currently running!_
 
    > _In Firefox this requires navigating to `about:config`, entering `security.fileuri.strict_origin_policy` in the filter box and toggling the option to false._
 
