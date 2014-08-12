@@ -14,7 +14,7 @@ Todo.FIXTURES = [
   {
     id: 2,
     title: 'Implement the resolver',
-    isCompleted: false
+    isCompleted: true
   },
   {
     id: 3,
